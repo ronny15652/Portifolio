@@ -1,0 +1,235 @@
+@font-face {
+    font-family: font;
+    src: url(/fonts/Righteous-Regular.ttf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+    background-color: #16191b;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 30%;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: font;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+    font-family: font ;
+}
+
+nav.black ul {
+    background: #252A2E;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #000;
+    }
+
+    nav.black ul {
+          background: #252A2E;
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+}
+
+#img-eu{
+    border-radius: 30vh;
+    width: 20%;
+    margin-top: -90%;
+    margin-left: 39%;  
+    border: 6px solid #1CB699;  
+    box-shadow: 0px 0px 2px 16px #19aa8f38;
+    padding: 0;
+}
+
+#fundo{
+    position: static;
+    background-color: #252A2E;
+    width: 30%;
+    height: 35vw;
+    border: 6px solid #252A2E;
+    border-radius: 30px;
+    margin-top: -130vh;
+    margin-left: 34%;
+}
+
+.text-banner h1{
+    font-family: font;
+    text-align: center;
+    margin-top: -80vh;
+    color: white;
+    margin-left: -30px;
+    font-size: 8vh;
+}
+
+.text-banner h6 {
+    text-align: center;
+    font-family: font fantasy;
+    font-weight: bold;
+    letter-spacing:2px;
+    color: white;
+    font-size: 1vw;
+    margin-left: -30px;
+}
+
+
+.text-banner .icons{
+    color: white;
+    text-align: center;
+    margin-right: 18px;
+    margin-top: 2cm;
+    letter-spacing: 4px;
+    font-size: 3vw;
+}
+#container-banner{
+    position: static;
+    
+}
+
+.content h2{
+    height: 50%;
+    color: white;
+    font-family: font;
+    text-align: center;
+    text-decoration: underline rgb(255, 255, 255) 4px;
+    text-shadow: 1px 1px 4px #149b9ba6;
+}
+.content p{
+    margin-top: 4vw;
+    color: white;
+    font-family: font;
+    text-align: center;
+    font-size: 1vw;
+    letter-spacing: 1px;
+}
+p, h5 {
+    text-align: left;
+}
+
+footer{
+    font-family: font;
+}
+span{
+    padding-right: 7px;
+    text-align: center;
+}
+
+.list-unstyled i {
+  
+    margin-top: 1vw;
+    display: inline-block;
+    flex-direction: column;
+    padding-right: 1vw;
+    margin-left: 5px;
+}
+.list-unstyled li{
+    display: inline-block;
+    background-color: #252A2E;
+    width: 7vw;
+    text-align: center;
+    border-radius: 10%;
+    padding: 0vw 1vw 1vw 2vw;
+    margin-left: 1vw;
+}
+.list-unstyled {
+    margin-top: 1vw;
+    padding-left: 0;
+    
+}
+
+
+
+
